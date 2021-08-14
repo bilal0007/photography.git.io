@@ -1,0 +1,157 @@
+header  {
+    text-align: center;
+    margin-top: 20px;
+    color: palevioletred;
+}
+header pre{
+  text-decoration: line-through;
+   display: inline;
+   
+   
+}
+header p{
+    display: inline;
+    font-size: 10px;
+}
+
+header h2{
+    font-weight:lighter;
+}
+
+article{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+.sect{
+    display: flex;
+   margin-left: 180px;
+    margin-top: 35px;
+    
+}
+
+
+.dob{
+    text-align: center;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+
+.dob pre{
+    text-decoration: line-through;
+    display: inline;
+    
+}
+.dob p{
+   
+    display: inline;
+    
+}
+
+.foot2{
+    background-color:white ;
+    width: 245px;
+    position: relative;
+    bottom: 84px;
+   left: 78px;
+   height: 161px;
+   font-size: 15px;
+   color:dimgray;
+}
+.foot2 p{
+    text-decoration: line-through;
+    position: relative;
+    top:15px;
+    right: 90px;
+    font-size: x-small;
+
+}
+.foot2 pre{
+    position: relative;
+    bottom: 6px;
+   right: 39px;
+   font-size: x-small;
+   color: black;
+   font-weight: bolder;
+}
+.foot2 ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+.foot2 li{
+    margin-left: 15px;
+   
+}
+.foot2 h5{
+    margin-right: 105px;
+    color: black;
+}
+
+.foot2 pre div{
+    color: dimgray;
+    display: inline;
+}
+
+
+#ox {
+    font-size: x-small;
+    /* margin-right: 25px; */
+    text-decoration: none;
+    margin-top: -29px;
+    /* margin-left:10px ; */
+}
+
+.box{
+
+background-color:palevioletred;
+border-top-left-radius:12px;
+    width: 35px;
+   height: 30px;
+  position: relative;
+  left: 210px;
+  top: 18px;
+}
+.box > div{
+    position: relative;
+    top: 6px ;
+    color: white;
+}
+
+
+
+ .sect i{
+     color: palevioletred;
+     font-size: 40px;
+ }
+ .sect h4{
+     font-weight: lighter;
+     font-size: 20px;
+ }
+ .sect p{
+     font-size: small;
+     margin-top: -6px; 
+    margin-bottom: 30px;
+    }
+
+ .dob p{
+    font-size: 10px;
+ }
+ .dob h2{
+     font-weight: lighter;
+     margin-top: 12px;
+ }
+  .sect article{
+      margin-right: 100px;
+  }
+.last{
+    display: flex;
+
+}
+.last article{
+    margin-right: 250px;
+    margin-left: 50px;
+    
+}
+            

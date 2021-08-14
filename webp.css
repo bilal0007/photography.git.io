@@ -1,0 +1,472 @@
+header{
+  background-image: linear-gradient(rgba(30,40,50,0.5),rgba(30,40,50,0.5)),url(/imagee/dariusz-sankowski-mj2NwYH3wBA-unsplash.jpg);
+  background-size: cover;
+  padding-bottom: 100px;
+  
+}
+body{
+    margin: 0px;
+}
+.log{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    margin-left: 95px;
+    
+}
+
+.tleft{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 50px;
+}
+.tleft li a{
+    padding:  0px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+   
+}
+
+.bhead{
+    color: white;
+    margin-left: 80px;
+    margin-top: 188px;
+    margin-bottom: 30px;
+
+}
+
+
+.bhead p{
+ width: 600px;
+ line-height: 30px;
+}
+
+.bhead h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.bhead h3{
+    font-size:22px;
+    font-weight: lighter;
+    margin-left:270px;
+    letter-spacing: 4px;
+   
+    margin-bottom: -35px;
+}
+
+.butt{
+    color: white;
+    padding: 20px 60px;
+    background-color: transparent;
+   border: 1px solid whitesmoke;
+    border-radius: 5px;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top: 100px;
+
+
+}
+.butt:hover{
+    background-color: whitesmoke;
+    color: dimgray;
+    border: none;
+}
+
+/* SECOND SECTION */
+.create {
+    display: flex;
+  
+    margin-left: 203px;
+}
+.shead{
+    text-align: center;
+}
+
+.shead h6{
+letter-spacing: 2px;
+color: rgb(211, 93, 93);
+font-weight: 800;
+}
+
+.create article{
+    padding: 20px;
+}
+.p1{
+    position: relative;
+    bottom: 57px;
+    left: 20px;
+    color: white;
+    font-size:x-large;
+}
+
+.p2{
+    position: relative;
+    bottom: 57px;
+    left: 20px;
+    color: white;
+    font-size:x-large;
+}
+.foot{
+    display: flex;
+    padding-bottom: 50px;
+}
+.end{
+   background-color: rgb(221, 219, 219);
+  padding: 30px;
+   
+}
+.end p{
+    line-height: 30px;
+}
+
+
+.butt2{
+    color: black;
+    padding: 20px 60px;
+    background-color: transparent;
+   border: 1px solid black;
+    border-radius: 5px;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top: 30px;
+   
+}
+.butt2:hover{
+    background-color: rgb(48, 48, 48);
+    color: whitesmoke;
+    border: none;
+ 
+}
+.tstart > img {
+width: 100%;
+height : 600px
+
+
+}
+.tstart{
+    position: relative;
+text-align: center;
+margin-bottom: 30px;
+}
+.tstart>div{
+    color: whitesmoke;
+    position: absolute;
+   top: 150px;
+   left: 500px;
+}
+
+.butt3{
+    color: black;
+    padding: 20px 60px;
+    background-color: white;
+   border: 1px solid whitesmoke;
+    border-radius: 5px;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top: 30px;
+   
+}
+.butt3:hover{
+    background-color: rgb(87, 82, 82);
+    color: whitesmoke;
+    border: none;
+ 
+}
+
+.tstart> div h1{
+    font-size: xx-large;
+    padding-bottom: 30px;
+
+}
+
+.tstart> div h5{
+    font-size: 15px;
+   
+
+}
+.lets{
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+    display: flex;
+    
+   
+}
+
+.content h1{
+    font-size: xx-large;
+    
+  
+}
+
+.content {
+    
+  padding-top: 150px;
+  padding-left: 90px; 
+}
+.content p{
+    line-height: 25px;
+}
+.content h6{
+    font-size: 15px;
+ color: gray;
+}
+
+.heado{
+    text-align: center;
+}
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.outer{
+    border-radius: 50%;
+    width: 330px;
+    height: 330px;
+    /* border: 2px solid red; */
+    margin: 30px;
+    background-color: grey;
+}
+
+.divone > img{
+    border-radius: 50%;
+}
+
+.divone{
+    position: relative;
+}
+.divtwo{
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 110px;
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.divtwo p{
+    margin-top: -20px;
+}
+.divtwo ul{
+    display: flex;
+    padding: 0px;
+    text-align: center;
+}
+.divtwo ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.outer:hover .divtwo{
+    opacity: 1;
+}
+
+.outer:hover .divone img{
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Name,#Email{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-top:black ;
+    border-left: black;
+    border-right: black;
+    outline: none;
+    width: 200px;
+    margin-right: 101px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+#Subject{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-top:black ;
+    border-left: black;
+    border-right: black;
+    outline: none;
+    width: 700px;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+}
+#Message{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-top:black ;
+    border-left: black;
+    border-right: black;
+    outline: none;
+    width: 700px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.butt4{
+    color: white;
+    padding: 20px 60px;
+    background-color: transparent;
+   border: 1px solid whitesmoke;
+    border-radius: 5px;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top: 30px;
+
+
+
+}
+.butt4:hover{
+    background-color: whitesmoke;
+    color: dimgray;
+    border: none;
+}
+
+.foram{
+  margin-top: 100px;
+  margin-left: 272px;
+}
+
+
+
+
+
+
+
+
+
+
+.S3{
+    display: flex;
+    margin-top:  30px;
+  margin-left: -48px;
+}
+ .S3 li { 
+     
+ list-style: none;
+ display: flex;
+margin: 10px;
+font-size: 20px;
+border: 2px solid dimgrey;
+border-radius: 50%;
+padding: 10px
+
+}  
+
+ #one:hover{
+    font-size:25px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 10px;
+color: dodgerblue;
+
+}
+
+#two:hover{
+    font-size:25px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 10px;
+color: skyblue;
+
+}
+
+#thr:hover{
+    font-size:25px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 10px;
+color: rgb(131, 131, 204);
+
+}
+
+#for:hover{
+    font-size:25px;
+border: 2px solid white;
+border-radius: 50%;
+padding: 10px;
+color: white;
+
+}
+/* .foram h3{
+    border-bottom: 1px solid grey;
+padding: 20px;
+
+} */
+footer{
+    background-color: grey;
+    color: honeydew;
+ margin-top: 0px;
+  
+}
+
+.side{
+    margin-left:  40px;
+    margin-top: 10px;
+}
+
+.fleft{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.fleft li a{
+    padding:  0px 20px;
+    text-decoration: none;
+    color: white;
+    
+    }
+
+    .fnavbar{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+
+    }
+    
